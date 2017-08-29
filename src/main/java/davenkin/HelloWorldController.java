@@ -11,6 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class HelloWorldController {
 
+    
     private HelloWorld helloWorld;
 
     @Autowired
@@ -20,7 +21,7 @@ public class HelloWorldController {
 
     @RequestMapping("/helloworld")
     public String index() {
-        
+
         return helloWorld.sayHello();
     }
 
