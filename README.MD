@@ -22,6 +22,6 @@ Windows: `mvnw.cmd findbugs:findbugs`
 Linux/Mac: `./mvnw findbugs:findbugs`
 
 
-- Run full local build: 
-Windows: `mvnw.cmd clean checkstyle:check findbugs:findbugs install`
-Linux/Mac: `./mvnw clean checkstyle:check findbugs:findbugs install`
+- Run unit tests with checkstyle and findbugs: 
+Windows: `mvnw.cmd clean checkstyle:check findbugs:findbugs test`
+Linux/Mac: `./mvnw clean checkstyle:check findbugs:findbugs test`
