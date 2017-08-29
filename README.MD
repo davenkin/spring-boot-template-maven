@@ -25,3 +25,5 @@ Linux/Mac: `./mvnw findbugs:findbugs`
 - Run unit tests with checkstyle and findbugs: 
 Windows: `mvnw.cmd clean checkstyle:check findbugs:findbugs test`
 Linux/Mac: `./mvnw clean checkstyle:check findbugs:findbugs test`
+
+Local run: `mvnw.cmd spring-boot:run`
