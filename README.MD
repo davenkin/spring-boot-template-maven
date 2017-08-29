@@ -1,22 +1,27 @@
 - Run only unit test: 
-`mvn clean test`
-
+Windows: `mvnw.cmd clean test`
+Linux/Mac: `./mvnw clean test`
 
 - Run only integration tests(by default end with "IT.java"): 
-`mvn clean integration-test -DskipUTs`
+Windows: `mvnw.cmd clean integration-test -DskipUTs`
+Linux/Mac: `./mvnw clean integration-test -DskipUTs`
 
 
 - Run both unit tests and integration tests: 
-`mvn clean install`
+Windows: `mvnw.cmd clean install`
+Linux/Mac: `./mvnw clean install`
 
 
 - Run checkstyle: 
-`mvn checkstyle:check`
+Windows: `mvnw.cmd checkstyle:check`
+Linux/Mac: `./mvnw checkstyle:check`
 
 
 - Run findbugs: 
-`mvn findbugs:findbugs`
+Windows: `mvnw.cmd findbugs:findbugs`
+Linux/Mac: `./mvnw findbugs:findbugs`
 
 
 - Run full local build: 
-`mvn clean checkstyle:check findbugs:findbugs install`
+Windows: `mvnw.cmd clean checkstyle:check findbugs:findbugs install`
+Linux/Mac: `./mvnw clean checkstyle:check findbugs:findbugs install`
